@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  background-color: #f1f3f6;
+  /* overflow-x: auto; */
+}
+
+/* Navbar CSS */
+nav {
+  height: 50px;
+  background-color: #2874f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flipkart_logo img {
+  height: 20px;
+  width: 80px;
+  margin-top: 2px;
+}
+
+.flipkart_logo2 a {
+  color: aliceblue;
+  font-size: 11px;
+  display: block;
+  margin-top: -3px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.flipkart_logo2 span {
+  color: #ffe500;
+  font-weight: 600;
+}
+
+.search_box {
+  background-color: white;
+  padding: 10px;
+  height: 35px;
+  margin-left: 15px;
+  color: #2370f4;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.search_box input {
+  width: 400px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menu {
+  margin-left: 150px;
+  justify-content: space-between;
+}
+
+.menu span > button {
+  height: 30px;
+  width: 120px;
+  color: #2874f0;
+  background-color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.menu span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.menu span > a {
+  color: white;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+#fa_angle_down_icon {
+  color: #f1f3f6;
+  font-size: 10px;
+  margin: 5px 0 0 6px;
+}
+
+#fa_cart_shopping {
+  margin-right: 5px;
+}
+
+/* main section CSS */
+.main {
+  border: 2px solid aliceblue;
+  background-color: white;
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 2px 7px -3px rgba(133, 133, 133, 0.73);
+  -webkit-box-shadow: 0px 2px 7px -3px rgba(133, 133, 133, 0.73);
+  -moz-box-shadow: 0px 2px 7px -3px rgba(133, 133, 133, 0.73);
+}
+
+.product_boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  /* align-items: center; */
+  width: 60%;
+  /* margin: auto; */
+}
+
+.product_box {
+  height: 60px;
+  width: 90px;
+  /* border: 1px solid black; */
+}
+
+.product_box img {
+  width: 65px;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 17px;
+}
+
+.product_box p {
+  font-size: 12px;
+  width: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Slider CSS */
+/* .img_slider {
+  width: 85%;
+  height: 500px;
+  border: 1px solid black;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img_slider > div {
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+} */
+
+.deals_of_the_day {
+  border: 1px solid red;
+  color: black;
+  background-color: white;
+  width: 1495px;
+  height: 70px;
+  position: relative;
+  left: 96px;
+  margin: 10px 0 0 0;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#deals {
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.deals_of_the_day img {
+  margin-left: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+#timeleft {
+  display: inline;
+  font-size: 15px;
+  margin-left: 5px;
+  color: gray;
+}
+
+.deals_of_the_day input {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  color: #fff;
+  background-color: #2370f4;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  border-radius: 2px;
+  border: none;
+  height: 37px;
+  width: 100px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.images_container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+.img_slider {
+  border: 1px solid black;
+  height: 350px;
+  width: 87%;
+  /* margin-top: 12px; */
+  background-color: white;
+  display: flex;
+}
+
+.img_slider div {
+  height: 300px;
+  width: 200px;
+  margin: 20px 0 0 20px;
+  border: 1px solid #ffe500;
+}
+
+.img_advertise {
+  height: 420px;
+  width: 13%;
+  margin-left: 10px;
+  margin-top: -70px;
+  background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90");
+  background-repeat: no-repeat;
+  background-position: 0 bottom;
+  background-color: white;
+  position: sticky;
+}
+
+.img_advertise p {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+  line-height: 1.38;
+  font-weight: 400;
+}
+
+.img_advertise input {
+  color: #fff;
+  background-color: #2370f4;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  border-radius: 2px;
+  border: none;
+  height: 37px;
+  width: 100px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-top: 45px;
+  text-transform: uppercase;
+}
+
+/* Testing */
+
+.images_container2 {
+  /* box-sizing: border-box; */
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 15px;
+  /* border: 1px solid red; */
+}
+
+.deals_testing2 {
+  border: 1px solid black;
+  height: 80px;
+  width: 87%;
+  /* margin-top: 12px; */
+  background-color: white;
+  display: flex;
+}
+
+#title2 {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.deals_testing2 img {
+  position: relative;
+  top: 20px;
+  margin-left: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+#timeleft2 {
+  display: inline;
+  font-size: 15px;
+  position: relative;
+  top: 30px;
+  margin-left: 5px;
+  color: gray;
+}
+
+.deals_testing2 input {
+  color: #fff;
+  background-color: #2370f4;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  border-radius: 2px;
+  border: none;
+  height: 37px;
+  width: 100px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.img_advertise2 {
+  display: none;
+}
+/* Testing */
